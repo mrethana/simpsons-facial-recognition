@@ -8,6 +8,8 @@ SentDex Tutorial Part 1: https://www.youtube.com/watch?v=COlbP62-B-U&vl=en
 
 The below video was created to attempt to apply SSD MobileNet to a Simpsons video clip to identify Bart Simpson. 
 
+![alt text](https://github.com/mrethana/simpsons-facial-recognition/blob/master/Example%20Facial%20Rec.png?raw=true)
+
 https://www.youtube.com/watch?v=531vqD6egMs&feature=youtu.be
 
 Results were less than stellar due to an underfit model and the training set was only trained on one class (Bart Simpson). However, this was a great learning experience to get familiar with transfer learning and working with object detection architectures. Additionally, we were able to apply OpenCv to break down a video and apply the object detection model to each frame. We were also able to use OpenCV to recompile the the new frames into a video. 
